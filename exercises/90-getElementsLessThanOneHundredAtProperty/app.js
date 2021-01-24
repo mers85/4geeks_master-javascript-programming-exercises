@@ -4,7 +4,7 @@ function getElementsLessThan100AtProperty(obj, key){
     array= obj.key
 
     if(Array.isArray(array)){
-        for(var i = 0; i < array.length; i++ ){
+        for(let i = 0; i < array.length; i++ ){
             if(obj.key[i] < 100){
                 result.push(obj.key[i])
             }

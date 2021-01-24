@@ -1,8 +1,8 @@
 // Write your function here
 function getElementsGreaterThan10AtProperty(obj, key){
-    var newArray = [];
+    let newArray = [];
    if (Array.isArray(obj[key])){
-        for(var i = 0; i < obj[key].length; i++){
+        for(let i = 0; i < obj[key].length; i++){
             if (obj[key][i] > 10){
                 newArray.push(obj[key][i])
             }

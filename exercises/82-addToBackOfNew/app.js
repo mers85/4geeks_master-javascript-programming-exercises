@@ -1,8 +1,8 @@
 // Write your function here
 function addToBackOfNew(array, element){
-    var newArray = [];
+    let newArray = [];
    
-    for(var i = 0; i < array.length; i++ ){
+    for(let i = 0; i < array.length; i++ ){
         newArray.push(array[i])
     }
     newArray.push(element);

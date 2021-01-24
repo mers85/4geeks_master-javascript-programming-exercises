@@ -1,8 +1,8 @@
 // Write your function here
 function removeElement(arr, param){
-    var newArray = [];
+    let newArray = [];
     newArray.push(...arr);
-    for(var i = 0; i < arr.length; i++){
+    for(let i = 0; i < arr.length; i++){
         if(newArray[i] === param){
             newArray.splice(i, 1);
         

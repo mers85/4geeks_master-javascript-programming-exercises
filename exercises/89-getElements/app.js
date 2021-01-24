@@ -1,7 +1,7 @@
 // Write your function here
 function getElementsThatEqual10AtProperty(obj, key){
     result = []
-    for(var i = 0; i < obj.key.length; i++ ){
+    for(let i = 0; i < obj.key.length; i++ ){
         if(obj.key[i] == 10){
             result.push(obj.key[i])
         }

@@ -1,8 +1,8 @@
 // Write your function here
 function countAllCharacters(str){
-    var freq = {};
-    for(var i = 0; i < str.length; i++){
-        var character = str[i];
+    let freq = {};
+    for(let i = 0; i < str.length; i++){
+        let character = str[i];
         if(freq[character]){
             freq[character]++;
         }else{

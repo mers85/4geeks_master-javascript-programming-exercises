@@ -2,7 +2,7 @@
 function computeAverageOfNumbers(arr){
     let numOfele = arr.length;
     let sum = arr.reduce((previous, current) => current += previous);
-    var avg = sum / numOfele;
+    let avg = sum / numOfele;
     return avg;
 }
 

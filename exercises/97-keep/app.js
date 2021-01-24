@@ -1,7 +1,7 @@
 // Write your function here
 function keep(arr, ele){
     newArray = [];
-    for(var i = 0; i < arr.length; i++){
+    for(let i = 0; i < arr.length; i++){
         if (arr[i] === ele){
             newArray.push(arr[i]);
         }

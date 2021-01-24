@@ -1,7 +1,7 @@
 // Write your function here
 function select(arr, obj){
     newObj = {};
-    for(var i = 0; i < arr.length; i++ ){
+    for(let i = 0; i < arr.length; i++ ){
         for (key in obj) {
             if (key == arr[i]){
                 newObj[key] = obj[key]
